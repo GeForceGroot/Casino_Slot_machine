@@ -32,19 +32,19 @@
     z-index: 1;
     animation: moveEmoji;
     animation-iteration-count: infinite;
-    animation-duration: 1s;
+    animation-duration: .6s;
 }
 #value2{
     z-index: 1;
     animation: moveEmoji;
     animation-iteration-count: infinite;
-    animation-duration: .8s;
+    animation-duration: .2s;
 }
 #value3{
     z-index: 1;
     animation: moveEmoji;
     animation-iteration-count: infinite;
-    animation-duration: 1.2s;
+    animation-duration: .4s;
 }
 
 #stop{

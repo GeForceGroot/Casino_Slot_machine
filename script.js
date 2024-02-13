@@ -40,25 +40,25 @@ function toRoll(value) {
         let newCSS_3 = document.getElementById('value3');
         newCSS_1.setAttribute(
             "style",
-            "animation: moveEmoji; animation-iteration-count: infinite; animation-duration: 1s"
+            "animation: moveEmoji; animation-iteration-count: infinite; animation-duration: .4s"
         );
         newCSS_2.setAttribute(
             "style",
-            "animation: moveEmoji; animation-iteration-count: infinite; animation-duration: 1s"
+            "animation: moveEmoji; animation-iteration-count: infinite; animation-duration: .3s"
         );
         newCSS_3.setAttribute(
             "style",
-            "animation: moveEmoji; animation-iteration-count: infinite; animation-duration: 1s"
+            "animation: moveEmoji; animation-iteration-count: infinite; animation-duration: .4s"
         );
         refreshIntervalId_1 = setInterval(function getEmoji_1() {
             document.getElementById('value1').innerText = ranEmoji();
-        }, 1000);
+        }, 200);
         refreshIntervalId_2 = setInterval(function getEmoji_2() {
             document.getElementById('value2').innerText = ranEmoji();
-        }, 800);
+        }, 200);
         refreshIntervalId_3 = setInterval(function getEmoji_3() {
             document.getElementById('value3').innerText = ranEmoji();
-        }, 1200);
+        }, 200);
     }
     if (value === false) {
         document.getElementById('value1').removeAttribute("style");
